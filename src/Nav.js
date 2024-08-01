@@ -2,7 +2,6 @@ import './styles/Styles.css';
 import Header from './Header';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
-import NavDropdown from 'react-bootstrap/NavDropdown';
 import Container from 'react-bootstrap/Container';
 
 const Navigation = () => {
@@ -18,7 +17,7 @@ const Navigation = () => {
         //     </ul>
         // </>
         <div className='center-navbar'>
-            <Navbar collapseOnSelect expand="lg">
+            <Navbar expand="lg">
                 <Container>
                     <Navbar.Brand href="#home"><Header /></Navbar.Brand>
                     <Navbar.Toggle aria-controls="responsive-navbar-nav" />
@@ -35,7 +34,6 @@ const Navigation = () => {
                 </Container>
             </Navbar>
         </div>
-        
     );
 }
 
