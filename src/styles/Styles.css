@@ -1,0 +1,52 @@
+/* Footer */
+ul {
+    list-style-type: none;
+    overflow: hidden;
+    display: inline-flex;
+}
+
+.container-footer {
+    background-color: #EDEFEE;
+    margin-top: 0px auto;
+    padding: 30px;
+}
+
+.footerNav{
+    display: inline-block;
+    text-align: left;
+    color: #333333;
+}
+
+.footerNav li a{
+    padding: 5px;
+    float: none;
+}
+
+/* Hyperlinks CSS */
+a {
+    text-decoration: none;
+}
+
+li a{
+    float: left;
+    padding: 15px;
+    color: #333333;
+}
+
+li a:hover {
+    color: #495E57;
+    text-decoration: underline;
+}
+
+/* Navbar */
+.center-navbar {
+    text-align: center;
+}
+
+.center-navbar .navbar {
+    display: inline-block;
+}
+
+.center-navbar .container {
+    width: 100%;
+}

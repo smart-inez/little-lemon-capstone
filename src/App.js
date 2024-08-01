@@ -1,10 +1,18 @@
-import './App.css';
+import './styles/App.css';
+import Header from './Header';
+import Nav from './Nav';
+import Main from './Main';
+import Footer from './Footer';
 
 function App() {
   return (
-    <div className="App">
-      <h1> Little Lemon Website </h1>
-    </div>
+    <>
+      <div className='App'>
+        <Nav />
+        <Main />
+        <Footer />
+      </div>
+    </>
   );
 }
 
