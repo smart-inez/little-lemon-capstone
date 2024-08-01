@@ -23,12 +23,12 @@ const Navigation = () => {
                     <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                     <Navbar.Collapse id="responsive-navbar-nav">
                         <Nav collapseOnSelect>
-                            <Nav.Link href="./Home.js">Home</Nav.Link>
-                            <Nav.Link href="./About.js">About</Nav.Link>
-                            <Nav.Link href="./Menu.js">Menu</Nav.Link>
-                            <Nav.Link href="./Reservations.js">Reservations</Nav.Link>
-                            <Nav.Link href="./OrderOnline.js">Order Online</Nav.Link>
-                            <Nav.Link href="./Login.js">Login</Nav.Link>
+                            <Nav.Link href="./Home.js" className='navLink'>Home</Nav.Link>
+                            <Nav.Link href="./About.js" className='navLink'>About</Nav.Link>
+                            <Nav.Link href="./Menu.js" className='navLink'>Menu</Nav.Link>
+                            <Nav.Link href="./Reservations.js" className='navLink'>Reservations</Nav.Link>
+                            <Nav.Link href="./OrderOnline.js" className='navLink'>Order Online</Nav.Link>
+                            <Nav.Link href="./Login.js" className='navLink'>Login</Nav.Link>
                         </Nav>
                     </Navbar.Collapse>
                 </Container>

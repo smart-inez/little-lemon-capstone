@@ -1,4 +1,4 @@
-import './styles/App.css';
+import './styles/Styles.css';
 import Nav from './Nav';
 import Main from './Main';
 import Footer from './Footer';

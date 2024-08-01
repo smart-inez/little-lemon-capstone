@@ -1,3 +1,7 @@
+.App {
+    text-align: center;
+}
+
 /* Footer */
 ul {
     list-style-type: none;
@@ -49,4 +53,8 @@ li a:hover {
 
 .center-navbar .container {
     width: 100%;
+}
+.center-navbar .navLink:hover {
+    color: #495E57;
+    text-decoration: underline;
 }
